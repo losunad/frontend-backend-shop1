@@ -1,0 +1,23 @@
+$primary: #3498db;
+$text: #333;
+
+@mixin button($color) {
+  background: $color;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.card {
+  padding: 20px;
+  background: #f5f5f5;
+
+  h2 {
+    color: $text;
+  }
+
+  a {
+    @include button($primary);
+  }
+}

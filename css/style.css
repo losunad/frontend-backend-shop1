@@ -1,0 +1,16 @@
+.card {
+  padding: 20px;
+  background: #f5f5f5;
+}
+.card h2 {
+  color: #333;
+}
+.card a {
+  background: #3498db;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=style.css.map */
